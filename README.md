@@ -1,6 +1,4 @@
-ProjecteBancDeTemps
-===================
+BancDeTemps
+===========
 
-Projecte d'Enginyeria del Software UPC y programació web
-
-Participants: David Berruezo Martinez, Albert Gazquez Sancho, Arturo Martinez Diaz, Ivan Sanchez Marcos
+Implementació web del projecte de l'asignatura PES

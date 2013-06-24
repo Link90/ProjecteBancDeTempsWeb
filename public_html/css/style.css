@@ -1,0 +1,171 @@
+html {
+height: 100%;
+}
+
+body {
+	background-image: linear-gradient(bottom, rgb(255,255,255) 16%, rgb(169,196,235) 81%);
+	background-image: -o-linear-gradient(bottom, rgb(255,255,255) 16%, rgb(169,196,235) 81%);
+	background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 16%, rgb(169,196,235) 81%);
+	background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 16%, rgb(169,196,235) 81%);
+	background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 16%, rgb(169,196,235) 81%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.16, rgb(255,255,255)),
+		color-stop(0.81, rgb(169,196,235))
+	);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.container {
+	height: 100%;
+	background-color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.upoptions {
+	position: relative;
+	right: 25px;
+	top: 5px;
+	float: right;
+	
+}
+.upoptions ul li{
+	display: inline;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.upoptions ul li a:hover {
+	text-decoration: none;
+	background-color: white;
+}
+
+img#unilogo {
+	position: relative;
+	width: 20%;
+	float: top;
+	z-index: 1;
+}
+
+img#bdtlogo {
+	position: relative;
+	top: 20px;
+	left: 150px;
+	margin-left: 15px;
+	width: 25%;
+}
+
+div#bannerimg {
+	position: relative;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style:solid;
+	border-width:1px;
+	width: 900px;
+	height: 130px;
+	top: -165px;
+	left: 30px;
+	background-image: linear-gradient(left , rgb(255,255,255) 45%, rgb(169,196,235) 81%);
+	background-image: -o-linear-gradient(left , rgb(255,255,255) 45%, rgb(169,196,235) 81%);
+	background-image: -moz-linear-gradient(left , rgb(255,255,255) 45%, rgb(169,196,235) 81%);
+	background-image: -webkit-linear-gradient(left , rgb(255,255,255) 45%, rgb(169,196,235) 81%);
+	background-image: -ms-linear-gradient(left , rgb(255,255,255) 45%, rgb(169,196,235) 81%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		right top,
+		color-stop(0.45, rgb(255,255,255)),
+		color-stop(0.81, rgb(169,196,235))
+	);
+}
+
+div#banner {
+	position: absolute;
+	width: 950px;
+	height: 200px;
+}
+
+div.menu-content {
+	position: absolute;
+	top: 200px;
+	position: relative;
+}
+
+ul.left-menu {	
+	padding-right: 20px;
+	left: -20px;
+	position: relative;
+	float: left;
+	margin-top: 60px;
+	text-decoration: none;
+}
+
+ul.left-menu  li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	width: 200px;
+	border-top: white solid 1px;
+	color: black;
+	list-style-type: none;
+	background-color: rgb(169,196,235);
+}
+
+ul.left-menu  li:hover {
+	cursor: pointer;
+	background-color: #8DA8D0;
+}
+
+ul.left-menu  li.activetop {
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+ul.left-menu li.activebottom {
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+ul.left-menu > li > a, ul.left-menu > li > a:hover, ul.left-menu > li > a:focus {
+	text-decoration: none;
+	color: black;
+<<<<<<< HEAD
+}	
+
+td.soltascacontent {
+padding-left: 75.5px;
+vertical-align: text-top;
+=======
+}
+
+tr.newTask {
+	background-color: #FFD29D;
+}
+
+tr#list-names th{
+	border-top: 0px;
+}
+
+div.conftasca {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+>>>>>>> 1197a946bbd79d5ba45206e964196e01e65986d5
+}

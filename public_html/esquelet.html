@@ -1,0 +1,39 @@
+<!DOCTYPE html>   
+<html lang="en">   
+	<head>   
+		<meta charset="utf-8">   
+		<title>Banc de Temps</title>   
+		<meta name="description" content="Benvingut al banc de temps universitari!">   
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link href="css/style.css" rel="stylesheet">  
+		
+	</head>  
+	<body>  
+		<div class="container">
+			<div id= "banner">
+				<!-- Banner superior + opciones superiores -->
+				<div class="upoptions">
+					<ul>
+						<li><a href="idioma.php"><b>IDIOMA</b></a></li>
+						<li><a href="ajuda.php"><b>AJUDA</b></a></li>
+						<li><a href="sobrenosaltres.php"><b>SOBRE NOSALTRES</b></a></li>
+						<li><a style="margin-left: 60px;" href="logout.php"><b>LOGOUT</b></a></li>
+					</ul>
+				</div>
+				<img src="img/UPClogo.gif" id="unilogo">
+				<div id="bannerimg">
+					<img src="img/BDTlogo.png" id="bdtlogo">
+				</div>
+			</div>
+			<div class="menu-content">
+				<!-- Opciones izquierda -->
+				<ul class="left-menu">
+					<li class="activetop" onclick="location.href='solicitudspendents.php'"> Tasques </li>
+					<li class="active" onclick="location.href='consultarsaldo1.php';"> Consultar Saldo </li>
+					<li class="active" onclick="location.href='usuarisActius.php';"> Cerca </li>
+					<li class="active" onclick="location.href='construc.html';"> Editar Perfil </li>
+					<li class="activebottom" onclick="location.href='ajuda.php';"> Ajuda </li>
+				</ul>
+				<table style="width:675px;">
